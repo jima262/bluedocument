@@ -1,15 +1,11 @@
-int pointCount = 2000000;
+int pointCount = 5000000;
 float x, y = 1;
 float xn, yn;
 
-float a=-2.24458046630025;
-float b=-2.25191834103316;
-float c=-1.81590817030519;
-float d=-1.90866735205054;
-//float a=-1.4;
-//float b=1.6;
-//float c=1.0;
-//float d=0.7;
+float a=-1.9737988;
+float b=-0.29585147;
+float c=-2.3156738;
+float d=0.40812516;
 float [][]pointAry = new float[2][10000000];
 
 
