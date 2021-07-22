@@ -2,10 +2,10 @@ int pointCount = 2000000;
 float x, y = 1;
 float xn, yn;
 
-float a=-3.3;
-float b=2.23;
-float c=1.24;
-float d=-2.81;
+float a=4;
+float b=2;
+float c=0.2;
+float d=4;
 //float a=-1.4;
 //float b=1.6;
 //float c=1.0;
@@ -37,6 +37,6 @@ void draw(){
   
   noLoop();
 
-save("dejong_210715b.png");
+save("dejong_210722b.png");
 
 }
