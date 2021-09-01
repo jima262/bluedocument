@@ -1,9 +1,9 @@
-int _numChildren = 2;
+int _numChildren = 4;
 int _maxLevels = 5;
 Branch _trunk;
 
 void setup(){
-  size(700,500);
+  size(700,900);
   background(255);
   noFill();
   smooth();
@@ -39,7 +39,7 @@ class Branch{
     x = ex;
     y = why;
     endx = x+(level*(random(100) - 50));
-    endy = y+50+(level*random(20));
+    endy = y+80+(level*random(40));
   }
   
   void drawMe(){
